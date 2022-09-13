@@ -91,11 +91,11 @@
 <p><font color='red'>注意！</font>此处有些人可能回车后无反应，那么你可以回到桌面右键鼠标，进入终端（powerShell）中，将刚才的代码录入并回车，也是可以得到目标结果的。</p>
 <p>5.复制秘钥，链接账户</p>
 <p>这里我们，进入目标文件夹下，获取秘钥，一般都在C盘的用户目录下，会有个.ssh的目录，里面有存储秘钥的文件，如图：</p>
-<p><img src="/image/notes/msml.png" alt="msml"></p>
+<p><img src="/image/article/notes/msml.png" alt="msml"></p>
 <p>​        其中，<code>id_rsa</code>是你这台电脑的私人秘钥，不能给别人看的，<code>id_rsa.pub</code>是公共秘钥，可以随便给别人看。把这个公钥放在GitHub上，这样当你链接GitHub自己的账户时，它就会根据公钥匹配你的私钥，当能够相互匹配时，才能够顺利的通过git上传你的文件到GitHub上。</p>
 <p>​        而后在GitHub的setting中，找到SSH keys的设置选项，点击<code>New SSH key</code></p>
 <p>​        把你的<code>id_rsa.pub</code>里面的信息复制进去。</p>
-<p><img src="/image/notes/sshAdd.png" alt="sshAdd"></p>
+<p><img src="/image/article/notes/sshAdd.png" alt="sshAdd"></p>
 <p>至此，添加秘钥完毕。</p>
 
                 
